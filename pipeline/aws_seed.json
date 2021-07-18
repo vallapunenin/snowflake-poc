@@ -1,0 +1,17 @@
+{
+  "Parameters": {
+    "ProjectName": "snowflake-poc",
+    "CodePipelineS3BucketName": "snowflake-poc-codepipeline-bucket",
+    "CloudFormationDeployActionRoleName": "snowflake-poc-cloudformation-deploy-role",
+    "CodePipelineRoleName": "snowflake-poc-codepipeline-role",
+    "CodePipelineName": "snowflake-poc-pipeline",
+    "StageAdministerPipelineStackName": "snowflake-poc-administer-pipeline-stack",
+    "SnowflakeAccount": "npa00074.us-east-1",
+    "SnowflakeUsername": "pipeline_sys_user",
+    "SnowflakeMigrationDatabaseName": "pipeline_db_migration_plan",
+    "SnowflakeWarehouse": "pipeline_warehouse",
+    "SnowflakeRole": "pipeline_role",
+    "CodeBuildRoleName": "snowflake-poc-codebuild-role",
+    "SnowflakeSecretsManagerARN": "arn:aws:secretsmanager:us-east-1:131294599856:secret:snowflake/pipeline_sys_user-iwGajk"
+  }
+}

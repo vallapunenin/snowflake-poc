@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  flyway:
+    image: flyway/flyway
+    volumes:
+      - ./sql:/flyway/sql
+      - ./conf:/flyway/conf
+      - ./keys:/flyway/keys
+    command: migrate
+
+  flyway-aws-cli:
+      build:
+          context: .
+          dockerfile: Dockerfile
+      volumes:
+        - ./sql:/flyway/sql
+        - ./conf:/flyway/conf
+        - ./keys:/flyway/keys
+      command: migrate

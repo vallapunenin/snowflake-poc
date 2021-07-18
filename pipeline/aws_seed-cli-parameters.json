@@ -1,0 +1,54 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "snowflake-poc"
+  },
+  {
+    "ParameterKey": "CodePipelineS3BucketName",
+    "ParameterValue": "snowflake-poc-codepipeline-bucket"
+  },
+  {
+    "ParameterKey": "CloudFormationDeployActionRoleName",
+    "ParameterValue": "snowflake-poc-cloudformation-deploy-role"
+  },
+  {
+    "ParameterKey": "CodePipelineRoleName",
+    "ParameterValue": "snowflake-poc-codepipeline-role"
+  },
+  {
+    "ParameterKey": "CodePipelineName",
+    "ParameterValue": "snowflake-poc-pipeline"
+  },
+  {
+    "ParameterKey": "StageAdministerPipelineStackName",
+    "ParameterValue": "snowflake-poc-administer-pipeline-stack"
+  },
+  {
+    "ParameterKey": "SnowflakeAccount",
+    "ParameterValue": "npa00074.us-east-1"
+  },
+  {
+    "ParameterKey": "SnowflakeUsername",
+    "ParameterValue": "pipeline_sys_user"
+  },
+  {
+    "ParameterKey": "SnowflakeWarehouse",
+    "ParameterValue": "pipeline_warehouse"
+  },
+  {
+    "ParameterKey": "SnowflakeMigrationDatabaseName",
+    "ParameterValue": "pipeline_db_migration_plan"
+  },
+  {
+    "ParameterKey": "SnowflakeRole",
+    "ParameterValue": "pipeline_role"
+  },
+  {
+    "ParameterKey": "CodeBuildRoleName",
+    "ParameterValue": "snowflake-poc-codebuild-role"
+  },
+  {
+    "ParameterKey": "SnowflakeSecretsManagerARN",
+    "ParameterValue": "arn:aws:secretsmanager:us-east-1:131294599856:secret:snowflake/pipeline_sys_user-iwGajk"
+  }
+]

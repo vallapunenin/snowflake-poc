@@ -471,7 +471,7 @@ Resources:
               OutputArtifacts:
                 - Name:  !Join ["", [!Ref ProjectName, "Source"]]
               Configuration:
-                BranchName: 'master'
+                BranchName: 'main'
                 RepositoryName: !GetAtt CodeCommitRepository.Name
               RunOrder: 1
         - Name: "AdministerPipeline"

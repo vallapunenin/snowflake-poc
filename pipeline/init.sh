@@ -22,4 +22,4 @@ git add .
 echo "CodeCommitting files"
 git commit -m "Initial commit"
 echo "Pushing to CodeCommit"
-git push --set-upstream origin master
+git push --set-upstream origin main
